@@ -1,0 +1,21 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+
+"repository": {
+ "type": "git",
+ "url": "https://git.heroku.com/hw5-16936-swethasree.git"
+ },
+ "dependencies": {
+ "express": "^4.4.5",
+  "socket.io": "1.2.0",
+ "ws": "0.4.x"
+ },
+ "engines": {
+ "node": "4.3.1"
+ },
+ "scripts": {
+ "start": "node index.js"
+ }
+} 
